@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Counter - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="title">
+            <h1>All Details</h1>
+            <p>That is showing the details of the universit.</p>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-handshake-o"></i>
+                    <h2 class="counter">25</h2>
+                    <h4>Years of Success</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-users"></i>
+                    <h2 class="counter">1000</h2>
+                    <h4>College Comitments</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-tag"></i>
+                    <h2 class="counter">20</h2>
+                    <h4>State and national Titles</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-globe"></i>
+                    <h2 class="counter">41</h2>
+                    <h4>National Player</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>
